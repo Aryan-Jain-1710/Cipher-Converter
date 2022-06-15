@@ -8,7 +8,7 @@ This project was built to emphasize the importance of encryption and decryption.
 
 
 ## Repository Information
-The programming language used is Python. The repository consists of a single main.py python file.
+The programming language used is Python. The repository consists of a single main.py python file. The libraries used include tkinter, ttkthemes, tkinter.scrolledtext, and string.
 
 
 
