@@ -2,7 +2,7 @@
 
 
 ## Introduction
-This is a graphical user interface that allows the client to encrypt and decrypt messages from multiple ciphers. This includes Caesar Cipher, Vernam cipher, Vigenere cipher. 
+This is a graphical user interface that allows the client to encrypt and decrypt messages from multiple ciphers. This includes Caesar Cipher, Vernam cipher, and Vigenere cipher. 
 This project was built to emphasize the importance of encryption and decryption. This is an independent project.
 
 
