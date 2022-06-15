@@ -2,8 +2,7 @@
 
 
 ## Introduction
-This is a graphical user interface that allows the client to encrypt and decrypt messages from multiple ciphers. This includes Caesar Cipher, Vernam cipher, and Vigenere cipher. 
-This project was built to emphasize the importance of encryption and decryption. This is an independent project.
+This is a graphical user interface that allows the client to encrypt and decrypt messages from multiple ciphers. This includes Caesar Cipher, Vernam cipher, and Vigenere cipher. This project was built to emphasize the importance of encryption and decryption.
 
 
 
@@ -13,3 +12,5 @@ The programming language used is Python. The repository consists of a single mai
 
 
 ## Functions
+
+The main.py file has 2 functions for each cipher for encryption and decryption from normal english text.
