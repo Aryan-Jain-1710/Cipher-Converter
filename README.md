@@ -1,4 +1,4 @@
-# Cryptographer GUI
+# Cipher Converter
 
 
 ## Introduction
