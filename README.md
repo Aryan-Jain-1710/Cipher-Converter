@@ -2,6 +2,7 @@
 A simple app that allows the client to encrypt and decrypt messages from multiple ciphers. This includes Caesar Cipher, Vernam cipher, and Vigenere cipher.
 
 
+
 ## Table of Contents
 - [Purpose](#purpose)
 - [Technologies and Libraries Used](#technologies-and-libraries-used)
@@ -24,6 +25,25 @@ I also wanted to learn more about the tkinter library and how to create a GUI wi
     - tkinter.scrolledtext
 
 
-## Functions
+## Setup
+Make sure you have the latest version of Python installed and also install the libraries mentioned above.
 
-The main.py file has 2 functions for each cipher for encryption and decryption from normal english text.
+## Repository Information
+The main.py file contains the code for the GUI and the functions for each cipher for encrption and decryption.
+
+## Usage
+
+<img src="image.png" width="450" height="300">
+
+```
+```
+
+To run the program, run the main.py file. This will open up the GUI. To use the application, follow the steps below:
+- For encryption
+    - Select the cipher you want to use
+    - Enter the message you want to encrypt
+    - Enter the key for the cipher (mandatory for Vernam and Vigenere cipher)
+- For decryption
+    - Select the cipher you want to use
+    - Enter the message you want to decrypt
+    - Enter the key for the cipher (mandatory for Vernam and Vigenere cipher)
