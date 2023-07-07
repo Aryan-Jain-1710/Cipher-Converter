@@ -37,20 +37,20 @@ class Application(object):
         self.combobox1 = ttk.Combobox(self.left, textvariable="Algorithm", values=("Caesar", 'Vernam', "Vigenère"), state='readonly', width=20)
         self.combobox1.place(x = 215, y = 120)
 
-        self.label1 = Label(self.left, text="Enter Code: ",bg="#DFDEDE" , font = "Courier 15")
+        self.label1 = Label(self.left, text="Enter Message: ",bg="#DFDEDE" , font = "Courier 15")
         self.label1.place(x=40, y=170)
 
         self.input1 = ttk.Entry(self.left, width = 40)
         self.input1.place(x = 215, y=173)
 
-        self.label11 = Label(self.left, text="Key(optional): ", bg="#DFDEDE", font="Courier 15")
-        self.label11.place(x=40, y=220)
+        self.label11 = Label(self.left, text="  Key(optional):\n(alphabets only)", bg="#DFDEDE", font="Courier 15")
+        self.label11.place(x=18, y=220)
 
         self.key1 = ttk.Entry(self.left, width=40)
         self.key1.place(x=215, y=223)
 
         self.button1 = ttk.Button(self.left, text = "Encrypt", width = 20, command = self.encrypt)
-        self.button1.place( x = 200, y = 273)
+        self.button1.place( x = 200, y = 280)
 
         self.output1 = tkinter.scrolledtext.ScrolledText(self.left, height = 10, width = 50, wrap = WORD)
         self.output1.config(state="disabled")
@@ -71,20 +71,20 @@ class Application(object):
         self.combobox2 = ttk.Combobox(self.right , textvariable="Algorithm", values=("Caesar",'Vernam', "Vigenère"), state='readonly', width=20)
         self.combobox2.place(x = 215, y = 120)
 
-        self.label2 = Label(self.right, text="Enter Code: ", bg="#E9E8E8", font="Courier 15")
+        self.label2 = Label(self.right, text="Enter Message: ", bg="#E9E8E8", font="Courier 15")
         self.label2.place(x=40, y=170)
 
         self.input2 = ttk.Entry(self.right, width = 40)
         self.input2.place(x = 215, y=173)
 
-        self.label22 = Label(self.right, text="Key(optional): ", bg="#E9E8E8", font="Courier 15")
-        self.label22.place(x=40, y=220)
+        self.label22 = Label(self.right, text="  Key(optional):\n(alphabets only)", bg="#E9E8E8", font="Courier 15")
+        self.label22.place(x=18, y=220)
 
         self.key2 = ttk.Entry(self.right, width=40)
         self.key2.place(x=215, y=223)
 
         self.button2 = ttk.Button(self.right, text = "Decrypt", width =20, command = self.decrypt)
-        self.button2.place( x = 200, y = 273)
+        self.button2.place( x = 200, y = 280)
 
         self.output2 = tkinter.scrolledtext.ScrolledText(self.right, height = 10, width = 50, wrap = WORD)
         self.output2.config(state = "disabled")
