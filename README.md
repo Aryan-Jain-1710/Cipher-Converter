@@ -36,8 +36,7 @@ The main.py file contains the code for the GUI and the functions for each cipher
 
 <img src="image.png" width="450" height="300">
 
-```
-```
+
 
 To run the program, run the main.py file. This will open up the GUI. To use the application, follow the steps below:
 - For encryption
