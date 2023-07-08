@@ -6,8 +6,9 @@ A simple app that allows the client to encrypt and decrypt messages from multipl
 ## Table of Contents
 - [Purpose](#purpose)
 - [Technologies and Libraries Used](#technologies-and-libraries-used)
+- [Setup](#setup)
 - [Repository Information](#repository-information)
-- [Functions](#functions)
+- [Usage](#usage)
 
 
 ## Purpose
