@@ -30,7 +30,7 @@ I also wanted to learn more about the tkinter library and how to create a GUI wi
 Make sure you have the latest version of Python installed and also install the libraries mentioned above.
 
 ## Repository Information
-The main.py file contains the code for the GUI and the functions for each cipher for encrption and decryption.
+The main.py file contains the code for the GUI and the functions for each cipher for encryption and decryption.
 
 ## Usage
 
