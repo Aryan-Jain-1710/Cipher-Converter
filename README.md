@@ -35,7 +35,7 @@ The main.py file contains the code for the GUI and the functions for each cipher
 
 ## Usage
 
-<img src="image.png" width="450" height="300">
+<kbd><img src="image.png" width="450" height="300"></kbd>
 
 
 
